@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulário de satisfação</title>
+</head>
+
+<body>
+    <h1>Pesquisa de satisfação</h1>
+    
+    <p>
+    <form method="post"action="processar-pesquisa.html">
+        <section>
+            <h2>Dados Pessoais</h2>
+        <p>
+        <label for="Nome">Nome</label>
+        <input id="nome"type="text" placeholder="Digite seu nome aqui">
+    </p>
+
+    <p>
+    <label for="e-mail">E-mail</E-amil></label>
+    <input id="e-mail"type="password" placeholder="Digite seu e-mail">
+    </p>
+
+    <p>
+        <label for="telefone">Contato</label>
+        <input id="telefone"type="tel"placeholder="Digite seu contato">
+  </p>
+        </section>
+        <section>
+            <H2>Dados de Pesquisa</H2>
+            <p>
+                <h4>Marque qual melhor opção representa o atendimento prestado:</h4>
+                <input type="radio"id="ruim" name="atendimento"/>
+                <label for="ruim">ruim</label>
+
+                <input type="radio"id="regular" name="atendimento"/>
+                <label for="regular">regular</label>
+
+                <input type="radio" id="bom" name="atendimento"/>
+                <label for="bom">bom</label>
+
+                <input type="radio" id="muito bom" name="atendimento"/>
+                <label for="muito bom">muito bom</label>
+
+                <input type="radio" id="excelente" name="atendimento"/>
+                <label for="excelente">excelente</label>
+
+                <p>
+                    <h4>Você indicaria a loja para outras pessoas?</h4>
+                    <input type="radio" id="sim" name="sim"/>
+                    <label for="sim">sim</label>
+
+                    <input type="radio"id="não" name="não"/>
+                    <label for="não">não</label>
+                </p>
+                
+                <p>
+                    <label for="vendedor">nome do vendedor:</label>
+                    <select>
+                        <option>Jamille</option>
+                        <option>Marcelo</option>
+                        <option>Fernando</option>
+                    </select>
+                </p>
+
+                <p>
+                    <input type="checkbox"id="compartilhar-dados"/>
+                    <label for="compartilhar-dados">autorizo compartilhamento de dados com terceiros</label>
+                </p>
+                </section>
+                <input type="submit"value="Enviar"/>
+                </form>
+
+
+            </p>
+
+</body>
+</html>
