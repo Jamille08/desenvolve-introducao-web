@@ -1,12 +1,18 @@
-/* Color Theme Swatches in Hex */
-.principal { color: #1e0863; }
-.destaque { color: #b60f15; }
-.backgroud { color: #e08dc3; }
-
-
-
 html{
-    background:#e08dc3;
-    color:#1e0863
+    background: #fbfcfd;
+    color: #1f295c;
+    font-size: 18px;
+    font-family: Helvetica, sans-serif;
+
 }
 
+p{
+    text-indent: 1em;
+}
+
+h1,h2,h3{
+    text-align: center;
+}
+h1{font-size: 1.8rem;}
+h2{font-size: 1.4rem;}
+h3{font-size: 1.2rem;}
